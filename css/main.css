@@ -246,7 +246,7 @@ p {
     font-style: normal;
     line-height: 1.5em;
     margin: 0rem 0px 0px 0px;
-    color: #555;
+    color: rgb(64, 69, 77);
 }
 
 h1 {
@@ -274,7 +274,7 @@ h3 {
     font-style: normal;
     line-height: 1em;
     margin: 0px 0px 0px 0px;
-    color: rgb(148, 96, 6);
+    color: RGB(146, 97, 72);
 }
 
 .underLine {
@@ -282,7 +282,7 @@ h3 {
     border: none;
     padding-bottom: .7rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid var(--accent2);
+    border-bottom: 1px solid rgb(196, 198, 199);
 }
 
 .gap1 {
@@ -332,7 +332,7 @@ h3 {
     grid-column: 1/-1;
     grid-row: 7/7;
     z-index: 2;
-    color: #bebebe;
+    color: rgb(216, 216, 216);
     width: max-content;
     align-self: center;
     justify-self: center;
@@ -403,7 +403,7 @@ h3 {
 }
 
 .head {
-    background-image: url('../assets/img/image-1-2.jpg');
+    background-image: url('../assets/img/gilti-e1564756178111.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -426,9 +426,9 @@ h3 {
     place-items: center;
     padding: 5px;
     border-radius: 4px;
-    border: 1px solid var(--grey2);
+    border: 1px solid rgb(190, 190, 190);
     background-color: rgba(161, 161, 161, 0.247);
-    color: var(--accent2);
+    color: rgb(216, 216, 216);
     font-size: 1.2rem;
     z-index: 10;
     cursor: pointer;
@@ -440,7 +440,7 @@ h3 {
 }
 
 .callNow:hover {
-    border: 1px solid var(--accent2);
+    border: 1px solid rgb(185, 183, 183);
     background-color: rgba(161, 161, 161, 0.438);
     color: #fefefe;
 }
@@ -489,7 +489,7 @@ h3 {
 .pageSubTitle {
     font-family: 'Outfit-light';
     text-align: center;
-    color: var(--accent2);
+    color: rgb(206, 204, 204);
     font-size: 1.2rem;
     letter-spacing: .06em;
     grid-column: 1/-1;
@@ -614,7 +614,7 @@ section {
 }
 
 .whiteOnGrey {
-    background-color: grey;
+    background-color: rgb(91, 93, 94);
     color: #fff;
     padding: 40px 30px 40px 30px;
     justify-content: center;
