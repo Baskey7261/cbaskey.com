@@ -403,7 +403,7 @@ h3 {
 }
 
 .head {
-    background-image: url('../assets/img/hero.jpg');
+    background-image: url('../assets/img/image-1-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -584,22 +584,22 @@ section {
 }
 
 .pic1 {
-    background-image: url("../assets/img/cell2.png");
+    background-image: url("../assets/img/image004.jpg");
     min-width: 220px;
 }
 
 .pic2 {
-    background-image: url("../assets/img/grading1.jpg");
+    background-image: url("../assets/img/image006.jpg");
     min-width: 220px;
 }
 
 .pic3 {
-    background-image: url("../assets/img/classical1.jpg");
+    background-image: url("../assets/img/image002.jpg");
     min-width: 220px;
 }
 
 .pic4 {
-    background-image: url("../assets/img/rockschool4.jpg");
+    background-image: url("../assets/img/image001.jpg");
     min-width: 220px;
 }
 
