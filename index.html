@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.js"></script>
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <div class="bodyCover"></div>
+    <div class="wrapper">
+        <div id="head" class="head">
+            <div class="callNow"><a href="tel:07500723296"><span class="icon phone"> </span> Call Now</a></div>
+            <nav>
+                <div><a href="#about">ABOUT</a></div>
+                <div><a href="#locate">CONTACT</a></div>
+            </nav>
+            <div class="overlay2"></div>
+            <div class="social">
+                <a href="https://www.facebook.com/Musical-6-Strings-107755021737831">
+                    <div class="icon fb"></div>
+                </a>
+                <a href="https://twitter.com/MusicalSix2021">
+                    <div class="icon tw sideGap"></div>
+                </a>
+                <a href="https://www.instagram.com/musicalsixstrings/">
+                    <div class="icon ins"></div>
+                </a>
+            </div>
+            <div class="headBlock">
+                <div class="pageTitle thin" onclick="toggleAudio()">MUSICAL <span class="logo six"> </span>STRINGS</div>
+                <br class="gap1">
+                <h3 class="pageSubTitle">Curriculum based guitar tuition</h3>
+            </div>
+        </div>
+        <br class="gap1">
+        <div class="contentWrapper">
+            <section class="section1">
+                <div class="flex">
+                    <h3 class="underLine intro">Welcome to<br> Musical Six Strings.</h3>
+                    <em class="mobOnly centered">Specialists in curriculum-based guitar tuition.</em>
+                    <br class="gap2 mobOnly">
+                    <div class="flex img pic1 shadow1 mobOnly"></div>
+                    <br class="gap2 mobOnly">
+                    <p>
+                        At Musical Six Strings, we specialize in curriculum-based guitar tuition, built around the Trinity College of London's Classical & Plectrum grade initial through to grade 8 syllabus (2020-2023).
+                    </p>
+                    <p class="dropDown">
+                        Having a Trinity grade certificate, verifies that you have met the criteria required by the Regulated Qualifications Framework (RQF). Credentials such as these are recognized around the globe as the industry standard in the music and entertainments industry.
+                    </p>
+                    <em class="more" data-label1="Read more..." data-label2="Read less" onclick="learnMore(this)">Read more...</em>
+                    <br class="gap1">
+                    <em>
+                        Learning to sight read and understand music theory,
+                        come as standard in all of our lessons.
+                    </em>
+                </div>
+                <div class="flex img pic1 shadow1 mobOff"></div>
+
+                <div class="flex whiteOnGrey shadow1">
+                    <h3 class="underLine">About Us:</h3>
+                    <p>
+                        At Musical Six Strings you will be taught by a by a Trinity College of London certified, guitar teacher.<br> Our one-to-one approach to teaching enables us to tailor our lessons around each of our student's individual set of requirements
+                        which allows us to deliver the most effective and efficient learning experience and helps us to maintain an exam pass rate of 99% with over 50% of students receiving merits or distinctions.
+                    </p>
+                </div>
+            </section>
+            <section class="section2">
+                <div class="flex img pic2 shadow1 mobOff"></div>
+                <div class="flex">
+                    <h3 class="underLine">Grading System:</h3>
+                    <p>In accordance with the Trinity College of London's Classical & Rock-shool, grade initial through to grade 8 syllabuses.</p>
+                    <br class="gap2 mobOnly">
+                    <div class="flex img pic2 shadow1 mobOnly"></div>
+                    <br class="gap2 mobOnly">
+                    <p>
+                        The grading system begins at grade initial for beginners and continues through to grade 8. Every pupil at Musical Six Strings will undergo an initial assessment to determine their current grade level in accordance with, the Trinity College of London (TCL)
+                        syllabus.
+                    </p>
+                    <p class="dropDown">
+                        Grades 6-8 are a minimum requirement for students hoping to be put forward for further education such as a diploma or higher. We encourage our pupils to work toward completing each grade, however, we do also cater to pupils that are just aiming to hone
+                        their current skills and expand on their musical repertoire.
+                    </p>
+                    <em class="more" data-label1="Read more..." data-label2="Read less" onclick="learnMore(this)"> Read more...</em>
+                    <br class="gap2">
+                </div>
+                <br class="gap2">
+                <div class="flex whiteOnGrey shadow1">
+                    <h3 class="underLine">Our Syllabuses:</h3>
+                    <p>
+                        We run two main syllabuses, Classical & Rock School; although, we do offer classes in flamenco, ukulele, or none instrument-specific lessons in music theory and sight-reading.
+                    </p>
+                    <p class="dropDown">
+                        Our curriculum aims to not only expand on the student's guitar playing technique, but to also provide in-depth knowledge of the instrument they are playing along with musical notation and the ability to improvise fluently and creatively in response to
+                        unexpected musical stimuli.
+                    </p>
+                    <em class="more" style="color:var(--accent)" data-label1="Read more" data-label2="Read less" onclick="learnMore(this)">Read more</em>
+                </div>
+            </section>
+            <section class="checkBoard">
+                <div class="flex">
+                    <h3 class="underLine">Classical:</h3>
+                    <p>
+                        Designed around the Trinity College of London's Classical & Plectrum syllabus. From initial to grade eight.
+                    </p>
+                    <br class="gap2 mobOnly">
+                    <div class="flex img pic3 shadow2 mobOnly"></div>
+                    <br class="gap2 mobOnly">
+                    <p>
+                        The Classical syllabus covers a wide range of repertoire from all genres of classical music. The technical work includes uniquely composed exercises to ensure the required technique is in place to complete each grade.
+                    </p>
+                    <p class="dropDown">
+                        Students will be trained through the early grades with exercises designed to build on the skill level and technical ability which will be relied upon heavily, during the later grades.
+                    </p>
+                    <em class="more" data-label1="Read more..." data-label2="Read less" onclick="learnMore(this)">Read more...</em>
+                </div>
+                <div class="flex img pic3 shadow1 mobOff"></div>
+                <div class="flex img pic4 shadow2 mobOff"></div>
+                <div class="flex">
+                    <h3 class="underLine">Rock School:</h3>
+                    <p>
+                        Designed around the Trinity College of London's Rock and Pop syllabus (2018-2024).
+                    </p>
+                    <br class="gap2 mobOnly">
+                    <div class="flex img pic4 shadow2 mobOnly"></div>
+                    <br class="gap2 mobOnly">
+                    <p>
+                        The Rock School syllabus focuses on merging the techniques required for both acoustic and electric guitar. The aim of the syllabus is to build a skill set that will be useful in building a repertoire that suits both instruments,
+                    </p>
+                    <p class="dropDown">
+                        with an emphasis on a variety of finger and plectrum techniques. Students will be encouraged to explore a wide range of styles including, rock-and-pop, jazz, blues, and country. The syllabus also covers chord progressions and patterns, along with standard
+                        and none-standard, scales and arpeggios, incorporating the use of both plectrum and fingers.
+                    </p>
+                    <em class="more" data-label1="Read more..." data-label2="Read less" onclick="learnMore(this)"> Read more...</em>
+                </div>
+            </section>
+            <section class="section5">
+                <div class="flex whiteOnGrey center shadow1">
+                    <h3 class="underLine">Accessibility:</h3>
+                    <br class="gap1">
+                    <p>
+                        All students are welcome at Musical Six Strings regardless of age or ability.<br> Our learning packages are built around each of our pupil’s unique set of circumstances. There is no requirement to bring, or own a guitar, as we
+                        are happy to provide one for use on-site.<br> We also offer, one-to-one online lessons to any student experiencing traveling issues.
+                    </p>
+                </div>
+            </section>
+            <section class="section5">
+                <div class="flex center">
+                    <h3 class="underLine">Interested?</h3>
+                    <br class="gap1">
+                    <p>
+                        We run 30 minute, 45 minute and 1 hour lessons. We recommend beginners start with the half hour lesson as there is a lot to take in initially.
+                        <br> Prices vary depending on each pupils specific requirements.
+                        <br> As a complete beginner you will be taken through the Alfred's system which has been renowned world wide for over 50 years, as the most comprehensive and effective method of learning guitar.
+                    </p>
+                </div>
+            </section>
+            <section class="section6 locate">
+                <div class="flex">
+                    <h3 class="underLine">Contact us:</h3>
+                    <br class="gap1">
+                    <ul>
+                        <li><a class="hyper2" href="tel:07500723296"><span class="icon phone"> </span> Call, text or Whatsapp: 0750 0723296.</a></li>
+                        <li><a class="hyper2" href="https://maps.google.com/maps?ll=52.519148,-1.840531&z=16&t=m&hl=en-GB&gl=GB&mapclient=embed&cid=10402706470210897774"><span class="icon location"> </span> 9 Deakin Rd, Erdington, Birmingham, B24 9AJ.</a></li>
+                        <li><a class="hyper2" href="mailto:David@musicalsixstrings.co.uk"><span class="icon email"> </span> Email: David@musicalsixstrings.co.uk</a></li>
+                    </ul>
+                    <br class="gap1">
+                    <p>Opening hours':<br> Monday to Friday, 9:00 am - 9:00pm.</p>
+                    <br class="gap2">
+                    <em>
+                        Conveniently located in the center of Erdington in Birmingham, within a stones throw of most bus and train routes in or around the West-Midlands. 
+                    </em>
+                </div>
+            </section>
+            <section class="section7">
+                <div id="googleMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.7895428516854!2d-1.8427192841925484!3d52.519147679814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a4d36b4f182d%3A0xf31dccc6b6c651c8!2sMusical+6+Strings!5e0!3m2!1sen!2suk!4v1519020645203"
+                        width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="footnote center">
+                    <br class="gap2">
+                    <p>
+                        For any other enquiries or to book your first lesson, please call, text or visit us on social media.
+                    </p>
+                    <div class="gap4"></div>
+                    <p><em>Your feed-back is important to us; Please take a a moment to share your experience with us.</em></p>
+                    <a href="https://g.page/r/CbvVs-BrsnvaEAg/review">
+                        <button class="">WRITE A REVIEW <span class="icon pencil"> </span></button>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <br class="gap4">
+        <br class="gap4">
+        <footer>
+            <div class="footerSocial">
+                <a href="https://www.facebook.com/Musical-6-Strings-107755021737831">
+                    <div class="icon fb"></div>
+                </a>
+                <a href="https://twitter.com/MusicalSix2021">
+                    <div class="icon tw"></div>
+                </a>
+                <a href="https://www.instagram.com/musicalsixstrings/">
+                    <div class="icon ins"></div>
+                </a>
+            </div>
+            <div class="address">
+                <p>9 Deakin Rd, Erdington, Birmingham, B24 9AJ.</p>
+                <p>Email: David@musicalsixstrings.co.uk</p>
+            </div>
+            <div class="copyright">
+                <em><span style="font-style: normal;font-size:1.1rem;color:#888">&#169 </span>Musical Six Strings 2021.</em>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

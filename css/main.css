@@ -1,0 +1,814 @@
+:root {
+    --accent: rgb(252, 213, 85);
+    --accent2: rgb(233, 181, 92);
+    --grey1: rgb(206, 206, 205);
+    --grey2: rgb(140, 140, 141);
+}
+
+@font-face {
+    font-family: 'sixstringslogo';
+    src: url('../assets/fonts/sixstringslogo.eot?eap0ql');
+    src: url('../assets/fonts/sixstringslogo.eot?eap0ql#iefix') format('embedded-opentype'), url('../assets/fonts/sixstringslogo.ttf?eap0ql') format('truetype'), url('../assets/fonts/sixstringslogo.woff?eap0ql') format('woff'), url('../assets/fonts/sixstringslogo.svg?eap0ql#sixstringslogo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../assets/fonts/Quicksand-Light.woff2') format('woff2'), url('../assets/fonts/Quicksand-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../assets/fonts/Quicksand-Regular.woff2') format('woff2'), url('../assets/fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../assets/fonts/Quicksand-Bold.woff2') format('woff2'), url('../assets/fonts/Quicksand-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('../assets/fonts/Quicksand-Medium.woff2') format('woff2'), url('../assets/fonts/Quicksand-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('../assets/fonts/Rubik-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../assets/fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../assets/fonts/Quicksand-Light.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('../assets/fonts/Quicksand-Light.woff2') format('woff');
+    font--weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../assets/fonts/icomoon.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url('../assets/fonts/Outfit-Regular.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Light';
+    src: url('../assets/fonts/Outfit-Light.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Var';
+    src: url('../assets/fonts/Lexend-VariableFont_wght.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Black';
+    src: url('../assets/fonts/Lexend-Black.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Bold';
+    src: url('../assets/fonts/Lexend-Bold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-ExtraBold';
+    src: url('../assets/fonts/Lexend-ExtraBold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-ExtraLight';
+    src: url('../assets/fonts/Lexend-ExtraLight.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Light';
+    src: url('../assets/fonts/Lexend-Light.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Medium';
+    src: url('../assets/fonts/Lexend-Medium.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Regular';
+    src: url('../assets/fonts/Lexend-Regular.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-SemiBold';
+    src: url('../assets/fonts/Lexend-SemiBold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend-Thin';
+    src: url('../assets/fonts/Lexend-Thin.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Quicksand-Regular';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: inherit;
+    list-style: none;
+    letter-spacing: 0.03em;
+    word-spacing: .001em;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+button {
+    width: 150px;
+    margin: 35px auto;
+    padding: 12px;
+    background: transparent;
+    outline: none;
+    border: 2px solid var(--accent);
+    border-radius: 5px;
+    color: rgb(175, 142, 84);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.shadow1 {
+    box-shadow: 1px 1px 2px #777;
+}
+
+.shadow2 {
+    box-shadow: 1px 1px 2px rgb(185, 185, 185);
+}
+
+.center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.hyper2 {
+    color: rgb(62, 129, 160);
+    font-weight: 500;
+}
+
+.more {
+    cursor: pointer;
+    color: #9b750b;
+}
+
+.dropDown {
+    display: none;
+}
+
+em {
+    display: block;
+    font-size: .9rem;
+    font-weight: 100;
+    letter-spacing: 0.055em;
+    color: rgb(110, 110, 110);
+}
+
+li {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #444;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5em;
+    margin: 0rem 0px 0px 0px;
+    color: #555;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.055em;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0.055em;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Quicksand-Regular';
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1em;
+    margin: 0px 0px 0px 0px;
+    color: rgb(148, 96, 6);
+}
+
+.underLine {
+    outline: none;
+    border: none;
+    padding-bottom: .7rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--accent2);
+}
+
+.gap1 {
+    margin-bottom: .5rem;
+}
+
+.gap2 {
+    margin-bottom: 1rem;
+}
+
+.gap3 {
+    margin-bottom: 1.5rem;
+}
+
+.gap4 {
+    margin-bottom: 2rem;
+}
+
+.stuff {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: -100;
+    color: #fff;
+    top: 0px;
+    font-size: 1rem;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    opacity: .6;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+    font-size: 1.5rem;
+    grid-column: 1/-1;
+    grid-row: 7/7;
+    z-index: 2;
+    color: #bebebe;
+    width: max-content;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo {
+    font-family: 'sixstringslogo' !important;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+}
+
+.icon {
+    font-family: "icomoon";
+    font-size: inherit;
+    color: inherit;
+    font-weight: 100;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fb::before {
+    content: "\ea91";
+}
+
+.tw::before {
+    content: "\ea96";
+}
+
+.ins::before {
+    content: "\ea92";
+}
+
+.phone::before {
+    content: "\e942";
+}
+
+.email::before {
+    content: "\e949";
+}
+
+.location::before {
+    content: "\e947";
+}
+
+.six::before {
+    content: "\e900";
+}
+
+.pencil::before {
+    content: "\e907";
+}
+
+.bodyCover {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.head {
+    background-image: url('../assets/img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    height: 400px;
+    margin: 0px auto 25px auto;
+    background-color: rgb(187, 185, 185);
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+.callNow {
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid var(--grey2);
+    background-color: rgba(161, 161, 161, 0.247);
+    color: var(--accent2);
+    font-size: 1.2rem;
+    z-index: 10;
+    cursor: pointer;
+    width: 180px;
+    grid-column: 4/6;
+    grid-row: 5/6;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.callNow:hover {
+    border: 1px solid var(--accent2);
+    background-color: rgba(161, 161, 161, 0.438);
+    color: #fefefe;
+}
+
+.headBlock {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/-1;
+    grid-row: 2/5;
+    z-index: 1;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.headBlock * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pageTitle {
+    font-family: 'Outfit-Regular';
+    font-size: 2.5rem;
+    text-align: center;
+    color: #bbb;
+    grid-column: 1/-1;
+    grid-row: 2/4;
+    z-index: 1;
+}
+
+.thin {
+    font-style: normal;
+    line-height: 1.7rem;
+    letter-spacing: 0.055em;
+    margin: 0px;
+    color: rgb(235, 235, 233);
+    cursor: pointer;
+}
+
+.box {
+    border-radius: 3px;
+    padding: 10px;
+    color: grey;
+}
+
+.pageSubTitle {
+    font-family: 'Outfit-light';
+    text-align: center;
+    color: var(--accent2);
+    font-size: 1.2rem;
+    letter-spacing: .06em;
+    grid-column: 1/-1;
+    grid-row: 3/5;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px 0px 0px 0px;
+    width: 94%;
+    margin: 0px auto;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    align-self: center;
+    background: transparent;
+}
+
+nav div {
+    color: rgb(248, 246, 246);
+    font-size: 0.7rem;
+    font-weight: 100;
+    cursor: pointer;
+    z-index: 2;
+}
+
+nav div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    grid-template-columns: 1% 1fr auto 1fr 1%;
+    grid-template-rows: 40px 300px 3vw auto auto auto auto 50px 300px;
+}
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto;
+}
+
+section {
+    grid-column: 2/3;
+    grid-row: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 0px 12px 0px 12px;
+    row-gap: 25px;
+    margin-bottom: 25px;
+}
+
+.checkBoard {
+    row-gap: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    justify-content: center;
+    align-content: center;
+    min-width: 260px;
+    flex: 1 1 0;
+    align-self: stretch;
+    padding: 15px 10px 15px 10px;
+    -border: 1px solid red;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 10%;
+    min-height: 250px;
+    min-width: 50%;
+}
+
+.padLeft {
+    padding-left: 15px;
+}
+
+.padRight {
+    padding-Right: 15px;
+}
+
+.pic1 {
+    background-image: url("../assets/img/cell2.png");
+    min-width: 220px;
+}
+
+.pic2 {
+    background-image: url("../assets/img/grading1.jpg");
+    min-width: 220px;
+}
+
+.pic3 {
+    background-image: url("../assets/img/classical1.jpg");
+    min-width: 220px;
+}
+
+.pic4 {
+    background-image: url("../assets/img/rockschool4.jpg");
+    min-width: 220px;
+}
+
+.pic5 {
+    background-image: url("../assets/img/rockschool3.png");
+    min-width: 220px;
+}
+
+.collapse {
+    min-height: 0px;
+    padding: 0px;
+}
+
+.whiteOnGrey {
+    background-color: grey;
+    color: #fff;
+    padding: 40px 30px 40px 30px;
+    justify-content: center;
+}
+
+.whiteOnGrey h3 {
+    color: #fff;
+}
+
+.whiteOnGrey p {
+    color: #fff;
+}
+
+.centered {
+    margin: 0px auto;
+    text-align: center;
+    padding: 3rem 50px 3rem 50px;
+}
+
+#locate {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto 40px auto;
+    gap: 0px;
+}
+
+#googleMap {
+    width: 98%;
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+    border: 1px solid rgb(205, 206, 206);
+    border-radius: 4px;
+}
+
+.footnote {
+    width: 94%;
+    max-width: 600px;
+}
+
+footer {
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    width: 100%;
+    height: 300px;
+    background-color: rgb(26, 25, 25);
+    justify-items: center;
+    align-content: center;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 16px;
+    font-size: 1.3rem;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    z-index: 2;
+    color: #bebebe;
+    width: max-content;
+    align-self: center;
+    justify-self: center;
+}
+
+footer* {
+    color: #fff;
+}
+
+footer ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: .015em;
+    margin: .0px;
+    cursor: pointer;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 /-1;
+    grid-row: 4/5;
+    row-gap: 4px;
+    text-align: center;
+}
+
+.address p {
+    color: #888;
+}
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: .015em;
+    margin: .0px;
+    grid-row: 5/6;
+    grid-column: 1/-1;
+    text-align: center;
+    display: block;
+}
+
+.mobOnly {
+    display: none;
+}
+
+.more {
+    color: var(--accent);
+    margin-top: 7px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    color: rgb(129, 85, 4);
+}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (max-width:540px) {
+    .mobOnly {
+        display: block;
+    }
+    .mobOff {
+        display: none;
+    }
+    .centered {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        padding: 1rem 0px 1rem 0px;
+    }
+    .head {
+        height: 100vh;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        column-gap: 0px;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        width: 94%;
+        margin: 10px auto;
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        align-self: center;
+        justify-self: center;
+        background: transparent;
+    }
+    nav div {
+        color: rgb(248, 246, 246);
+        font-size: 0.8rem;
+        font-weight: 300;
+        cursor: pointer;
+        z-index: 2;
+        margin: 0px;
+    }
+    nav div:nth-child(1) {
+        margin-right: 5px;
+    }
+    nav div:nth-child(2) {
+        margin: 0px;
+        margin-left: 5px;
+    }
+    .pageTitle {
+        text-align: center;
+        color: #bbb;
+        font-size: 2rem;
+        z-index: 2;
+    }
+    .thin {
+        cursor: pointer;
+        user-select: none;
+    }
+    .pageSubTitle {
+        text-align: center;
+        color: var(--accent2);
+        font-size: 1rem;
+        z-index: 2;
+        ;
+    }
+    .intro {
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+        -border: 1px solid red;
+        padding-bottom: 15px;
+    }
+    section {
+        width: 98vw;
+        padding: 0px;
+    }
+}
