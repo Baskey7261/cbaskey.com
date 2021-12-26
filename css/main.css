@@ -360,6 +360,10 @@ h3 {
     margin: 0px;
 }
 
+.icon:hover {
+    color: #eee;
+}
+
 .fb::before {
     content: "\ea91";
 }
