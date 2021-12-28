@@ -237,13 +237,24 @@
             for (let e of paras) {
                 paraText.push(e.innerText);
             }
-            headingText.map(function(e, i, a) {
-                console.log(e);
-                headers[i].innerText = e;
-            })
-            paraText.map(function(e, i, a) {
-                console.log(e);
-                paras[i].innerText = e;
+            // headingText.map(function(e, i, a) {
+            //     console.log(e);
+            //     headers[i].innerText = e;
+            // })
+            // paraText.map(function(e, i, a) {
+            //     console.log(e);
+            //     paras[i].innerText = e;
+            // })
+
+            sendPageText(headingText, paraText);
+        }
+
+        function sendPageText(x, y) {
+            $.post("php/pagetext.php", {
+                headings: x,
+                paras: y
+            }, function(data, status) {
+                console.log(data);
             })
 
         }
