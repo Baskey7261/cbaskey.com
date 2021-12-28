@@ -170,8 +170,8 @@
     font-size: 14px;
     color: inherit;
     list-style: none;
-    letter-spacing: 0.03em;
-    word-spacing: .001em;
+    -letter-spacing: 0.03em;
+    -word-spacing: .001em;
 }
 
 body {
@@ -547,7 +547,7 @@ section {
     align-items: center;
     align-content: center;
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     margin: 0px auto;
     padding: 0px 12px 0px 12px;
     row-gap: 25px;
@@ -599,12 +599,12 @@ section {
 
 .pic3 {
     background-image: url("../assets/img/image002.jpg");
-    min-width: 220px;
+    min-width: 240px;
 }
 
 .pic4 {
     background-image: url("../assets/img/image001.jpg");
-    min-width: 220px;
+    min-width: 240px;
 }
 
 .pic5 {
