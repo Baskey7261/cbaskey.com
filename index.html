@@ -188,9 +188,9 @@
                     </p>
                     <div class="gap4"></div>
                     <p><em>Your feed-back is important to us; Please take a a moment to share your experience with us.</em></p>
-                    <a href="https://g.page/r/CbvVs-BrsnvaEAg/review">
-                        <button class="">WRITE A REVIEW <span class="icon pencil"> </span></button>
-                    </a>
+
+                    <button class="" onclick="saveText()">SAVE<span class="icon pencil"> </span></button>
+
                 </div>
             </section>
         </div>
@@ -218,6 +218,36 @@
         </footer>
     </div>
     <script src="js/main.js"></script>
+    <script>
+        let headers = document.getElementsByTagName("h3");
+        for (let e of headers) {
+            e.contentEditable = true;
+        }
+        let paras = document.getElementsByTagName("p");
+        for (let e of paras) {
+            e.contentEditable = true;
+        }
+
+        function saveText() {
+            let headingText = [];
+            let paraText = [];
+            for (let e of headers) {
+                headingText.push(e.innerText);
+            }
+            for (let e of paras) {
+                paraText.push(e.innerText);
+            }
+            headingText.map(function(e, i, a) {
+                console.log(e);
+                headers[i].innerText = e;
+            })
+            paraText.map(function(e, i, a) {
+                console.log(e);
+                paras[i].innerText = e;
+            })
+
+        }
+    </script>
 </body>
 
 </html>
