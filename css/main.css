@@ -836,6 +836,12 @@ footer ul li {
         margin: 0px;
         margin-left: 5px;
     }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
     .pageTitle {
         text-align: center;
         color: #bbb;
