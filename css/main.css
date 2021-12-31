@@ -837,15 +837,14 @@ footer ul li {
         margin-left: 5px;
     }
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .pageTitle {
         text-align: center;
         color: #bbb;
-        font-size: 1.5rem;
         z-index: 2;
     }
     .thin {
