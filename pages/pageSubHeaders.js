@@ -1,0 +1,1 @@
+let subHeadings=["Webdesingn & Brand Identity Specialists\n","Welcome to\nC.baskeyIT Branding","Brand Image:","Website:","Brand-Strategy:","Brand Identity:","Why Us?\n","Accessibility:","Interested?","Contact us:"];

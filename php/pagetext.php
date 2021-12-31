@@ -1,28 +1,34 @@
 <?php
-//print_r ($_POST);
 
-foreach ($_POST['headings'] as $key => $value) {
-    echo $value."\n";
-}
+$emphs = json_encode($_POST['emphs']);
+$headings = json_encode($_POST['headings']);
+$subHeadings = json_encode($_POST['subHeadings']);
+$paras = json_encode($_POST['paras']);
+
+$path1= "../pages/pageSubHeaders.js";
+$path2= "../pages/pageParas.js";
+$path3= "../pages/pageHeaders.js";
+$path4= "../pages/pageEmphs.js";
+
+$name1= "subHeadings";
+$name2= "pageParas";
+$name3= "pageHeadings";
+$name4= "pageEmphs";
+
+makeScript($subHeadings,$path1,$name1);
+makeScript($paras,$path2,$name2);
+makeScript($headings,$path3,$name3);
+makeScript($emphs,$path4,$name4);
 
 
+function makeScript($x,$p,$n){
+    if(!file_exists("../pages")){
+      mkdir("../pages", 0777, true);
+    };   
+      fopen($p,"w");
+      file_put_contents($p,"let ".$n."=".$x.";");
+  }
 
-
-
-// if(!file_exists("posts")){
-//     mkdir("posts", 0777, true);
-//   }
-//   if(!file_exists("posts/posts.js")){
-//     fopen("posts/posts.js","w");
-//     file_put_contents("posts/posts.js","var postData =[\n".$jsonData.",\n];");
-//   }else{
-  
-//     $handle = fopen("posts/posts.js", "r+") or die("Unable to open file!");
-//     fseek($handle,-4,SEEK_END);
-//     fwrite($handle,",\r\n".$jsonData."\r\n];");
-//     rewind($handle);
-//     fclose($handle);
-//   }
 
 
 

@@ -162,12 +162,61 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Outfit-Medium';
+    src: url('../assets/fonts/Outfit-Medium.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('../assets/fonts/Outfit-SemiBold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Thin';
+    src: url('../assets/fonts/Outfit-Thin.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Black';
+    src: url('../assets/fonts/Outfit-Black.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url('../assets/fonts/Outfit-Bold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-ExtraBold';
+    src: url('../assets/fonts/Outfit-ExtraBold.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-ExtraLight';
+    src: url('../assets/fonts/Outfit-ExtraLight.ttf') format('trueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     font-family: 'Quicksand-Regular';
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-size: 16px;
+    font-size: 15px;
     color: inherit;
     list-style: none;
     -letter-spacing: 0.03em;
@@ -184,9 +233,9 @@ button {
     padding: 12px;
     background: transparent;
     outline: none;
-    border: 2px solid var(--accent);
+    border: 2px solid rgb(66, 72, 92);
     border-radius: 5px;
-    color: rgb(175, 142, 84);
+    color: rgb(66, 72, 92);
     font-weight: 600;
     cursor: pointer;
 }
@@ -219,7 +268,7 @@ a {
 
 .more {
     cursor: pointer;
-    color: #9b750b;
+    color: #8ab0e2;
 }
 
 .dropDown {
@@ -244,14 +293,15 @@ p {
     font-size: 1rem;
     font-weight: 100;
     font-style: normal;
-    line-height: 1.5em;
+    line-height: 1.3em;
     margin: 0rem 0px 0px 0px;
     color: rgb(64, 69, 77);
 }
 
 h1 {
+    font-family: 'Outfit-Medium';
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: normal;
     font-style: normal;
     line-height: 1.5em;
     letter-spacing: 0.055em;
@@ -268,9 +318,9 @@ h2 {
 }
 
 h3 {
-    font-family: 'Quicksand-Regular';
+    font-family: 'Outfit-Regular';
     font-size: 1.8rem;
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
     line-height: 1em;
     margin: 0px 0px 0px 0px;
@@ -440,7 +490,8 @@ h3 {
     grid-column: 4/6;
     grid-row: 5/6;
     justify-self: center;
-    align-self: flex-end;
+    -align-self: flex-end;
+    text-align: center;
 }
 
 .callNow:hover {
@@ -466,8 +517,6 @@ h3 {
 }
 
 .pageTitle {
-    font-family: 'Outfit-Regular';
-    font-size: 2.5rem;
     text-align: center;
     color: #bbb;
     grid-column: 1/-1;
@@ -737,7 +786,7 @@ footer ul li {
     margin-top: 7px;
     margin-bottom: 7px;
     cursor: pointer;
-    color: rgb(129, 85, 4);
+    color: rgb(71, 121, 168);
 }
 
 @media screen and (min-width:1024px) {}
